@@ -8,11 +8,11 @@ namespace Employee
 {
     internal class coinditionalWage
     {
-        private int limit;
+        private int limit = 12;
         private int pay;
         private int noOfDayWork;
-        public coinditionalWage( int limit , int pay , int noOfDayWork ) { 
-         this.limit = limit;
+        public coinditionalWage(int pay , int noOfDayWork ) { 
+         
             this .pay = pay;
             this .noOfDayWork = noOfDayWork;    
         }
@@ -25,7 +25,7 @@ namespace Employee
             }
          else
             {
-                Console.WriteLine($"amount of salary {( noOfDayWork- noOfDayWork)*pay}");
+                Console.WriteLine($"amount of salary {( noOfDayWork- limit)*pay}");
             }
         }
         }
