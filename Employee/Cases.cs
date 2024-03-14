@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    public  class SwitchCase
+    public  class Cases
     {
         public static void CallUseCase()
         {

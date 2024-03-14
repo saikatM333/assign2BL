@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-    public  class Class3
+    public  class perDayWagePartime
     {
         public static void uc3()
         {

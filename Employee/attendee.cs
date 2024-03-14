@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Employee
 {
-     public class Class1
+     public class attendee
     {
         public static void attendence() {
             Random random = new Random();
